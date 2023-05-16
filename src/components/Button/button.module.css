@@ -1,0 +1,9 @@
+.btn{
+    padding: 16px 48px;
+    background: var(--yellow);
+    border: none;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Sen';
+}

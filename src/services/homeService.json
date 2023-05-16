@@ -1,0 +1,80 @@
+{
+    "homePost":[
+        {
+            "author":"By John Deo | Aug 23, 2021 ",
+            "description":"8 Figma design systems that you can download for free today."
+        },
+        {
+            "author":"By John Deo | Aug 23, 2021 ",
+            "description":"8 Figma design systems that you can download for free today."
+        },
+        {
+            "author":"By John Deo | Aug 23, 2021 ",
+            "description":"8 Figma design systems that you can download for free today."
+        },
+        {
+            "author":"By John Deo | Aug 23, 2021 ",
+            "description":"8 Figma design systems that you can download for free today."
+        }
+    ],
+    "homeCotegory":[
+        {
+            "logo":"<img src='../assets/icon/cotegoryIcon/Business.svg' alt='logo' />",
+            "heading":"Business",
+            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+        },
+        {
+            "logo":"<img src='../assets/icon/cotegoryIcon/Startup.svg' alt='logo' />",
+            "heading":"Startup",
+            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+        },
+        {
+            "logo":"<img src='../assets/icon/cotegoryIcon/Economy.svg' alt='logo' />",
+            "heading":"Economy",
+            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+        },
+        {
+            "logo":"<img src='../assets/icon/cotegoryIcon/Technology.svg' alt='logo' />",
+            "heading":"Technology",
+            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+        }
+    ],
+    "homeAuthor":[
+        {
+            "img":"<img src='../assets/images/repeatImages/user1.png' alt='logo' />",
+            "name": "Floyd Miles",
+            "company":"Content Writer @Company",
+            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
+            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
+            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
+            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+        },
+        {
+            "img":"<img src='../assets/images/repeatImages/user2.png' alt='logo' />",
+            "name": "Dianne Russell",
+            "company":"Content Writer @Company",
+            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
+            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
+            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
+            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+        },
+        {
+            "img":"<img src='../assets/images/repeatImages/user3.png' alt='logo' />",
+            "name": "Jenny Wilson",
+            "company":"Content Writer @Company",
+            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
+            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
+            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
+            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+        },
+        {
+            "img":"<img src='../assets/images/repeatImages/user4.png' alt='logo' />",
+            "name": "Leslie Alexander",
+            "company":"Content Writer @Company",
+            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
+            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
+            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
+            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+        }
+    ]
+}
