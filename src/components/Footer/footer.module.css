@@ -1,0 +1,77 @@
+footer{
+    background: var(--black);
+    margin-top: 50px;
+}
+.container{
+    max-width: 1282px;
+    margin: auto;
+}
+.contentFooter{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hrefFoorer{
+    margin-left: 24px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Sen';
+}
+.logoFooter{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white);
+    font-family: 'Sen';
+}
+.contentFooter2{
+    background: var(--lightBlack);
+    margin-top: 60px;
+    padding: 80px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.footerHeadig{
+    font-size: 32px;
+    color: var(--white);
+    font-family: 'Sen';
+    font-weight: 700;
+}
+.inputFooter{
+    outline: none;
+    border: 1px solid var(--darkGray);
+    color:var(--white);
+    background: var(--lightBlack);
+    padding: 15px 0 15px 25px ;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.butSub{
+    padding: 16px 48px;
+    background: var(--yellow);
+    border: none;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 18px;
+}
+.downFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 55px;
+}
+.footerPar{
+    color:var(--white);
+    font-size: 16px;
+    font-family: 'Sen';
+    opacity: .7;
+}
+.footerPar:first-of-type{
+    padding-bottom: 5px;
+}
+.socialImg{
+    margin-left: 27px;
+}

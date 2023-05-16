@@ -1,0 +1,38 @@
+header{
+    background: var(--black);
+}
+.container{
+    max-width: 1282px;
+    margin: auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--white);
+    font-size: 30px;
+    font-family: 'Sen';
+    font-weight: 600;
+}
+.navigate{
+    color: var(--white);
+    font-family: 'Sen';
+    margin-right: 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navigateS{
+    border: none;
+    background: var(--white);
+    padding: 15px 45px;
+    text-decoration: none;
+    font-family: 'Sen';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black);
+}
