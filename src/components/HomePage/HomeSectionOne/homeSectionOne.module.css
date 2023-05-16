@@ -1,3 +1,4 @@
+/* oneHome */
 .homeOne{
     background: url("../../../assets/images/homePage/home1.jpg") no-repeat;
     background-size: cover;
@@ -5,15 +6,13 @@
 }
 .oneHomePar{
     color: var(--white);
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 16px; font-weight: 600;
     font-family: 'Inter';
     padding-top: 128px;
 }
 .bigHomeHeading{
     color: var(--white);
-    font-size: 56px;
-    font-weight: 700;
+    font-size: 56px; font-weight: 700;
     font-family: 'Sen';
     padding-top: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -27,4 +26,77 @@
     color: var(--white);
     padding: 16px 0 50px;
     font-family: 'Inter';
+}
+
+/* twoHome */
+
+.twoHomeContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    
+}
+.twoHomeConotetTwo{
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px 2px var(--mediumGray); 
+    padding: 32px;
+}
+.twoHomeHead{
+    color: var(--black);
+    font-size: 36px; font-weight: 700;
+    font-family: 'Sen';
+    padding-bottom: 65px;
+}
+.twoHomeOnePar{
+    font-family: 'Inter';
+    font-weight: 500; font-size: 14px;
+    color: var(--darkGray);
+    padding-top: 32px;
+}
+.twoHomeThreeHead{
+    color:var(--black);
+    font-size: 28px; font-weight: 700;
+    line-height: 40px;
+    font-family: 'Sen';
+    padding-top: 16px;
+}
+.twoHomeTwoPar{
+    font-family: 'Inter';
+    color:var(--mediumGray);
+    line-height: 28px;
+    padding: 16px 0 32px;
+}
+.twoHomeDivHeadOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+.twoHomeParOne{
+    color: var(--black);
+    font-size: 36px;
+    font-family: 'Sen';
+    font-weight: 700;
+}
+.jsonDivTwo{
+    border: 1px solid var(--white);
+    padding: 32px 0 0 32px;
+}
+.jsonDivTwo:hover{
+    cursor: pointer;
+    background-color: var(--lightYellow);
+}
+.twoHomeParTwo{
+    color: var(--darkGray);
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.twoHomeFourHead{
+    font-size: 24px;font-weight: 700;
+    font-family: 'Sen';
+    line-height: 32px;
+}
+.twoHomeFourHead:nth-of-type(-n+3):last-of-type{   
+    padding-bottom: 40px;
 }

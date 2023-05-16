@@ -2,7 +2,14 @@ import Button from "../../Button/Button";
 import Container from "../../Container/Container";
 import style from "./homeSectionOne.module.css";
 import home2 from "../../../assets/images/homePage/home2.png";
+import { useEffect, useState } from "react";
+import { homePostGet } from "../../../services/database";
 const HomeSectionOne = () => {
+  const [homePost, setHomePost] = useState([]);
+  useEffect(() => {
+    homePostGet().then((res) => setHomePost(res));
+  }, []);
+
   return (
     <>
       <div className={style.homeOne}>
@@ -32,25 +39,52 @@ const HomeSectionOne = () => {
           <div className={style.twoHomeContent}>
             <div className={style.twoHomeOneDiv}>
               <h2 className={style.twoHomeHead}>Featured Post</h2>
-              <div className={style.twoHomeImgDiv}>
-                <img className={style.twoHomeImg} src={home2} alt="home 2" />
+              <div className={style.twoHomeConotetTwo}>
+                <div>
+                  <img src={home2} alt="home 2" />
+                </div>
+                <p className={style.twoHomeOnePar}>
+                  By <span className={style.twoHomeSpan}>John Doe</span> l May
+                  23, 2022
+                </p>
+                <h3 className={style.twoHomeThreeHead}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing <br />{" "}
+                  elit, sed do eiusmod tempor.
+                </h3>
+                <p className={style.twoHomeTwoPar}>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore <br /> eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+                <Button>Read More</Button>
               </div>
-              <p className={style.twoHomeOnePar}>
-                By <span className={style.twoHomeSpan}>John Doe</span> l May 23,
-                2022
-              </p>
-              <h3 className={style.twoHomeThreeHead}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit,
-                sed do eiusmod tempor.
-              </h3>
-              <p className={style.twoHomeTwoPar}>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore <br /> eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident.
-              </p>
-              <Button>Read More</Button>
             </div>
-            <div className={style.twoHomeOneDiv}></div>
+            <div className={style.twoHomeTwoDiv}>
+              <div className={style.twoHomeDivHeadOne}>
+                <p className={style.twoHomeParOne}>All Posts</p>
+                <span style={{ color: "#592EA9", fontFamily: "Inter" }}>
+                  View All
+                </span>
+              </div>
+              <div className={style.jsonDiv}>
+                {homePost.map((item) => {
+                  return (
+                    <div className={style.jsonDivTwo} key={item.id}>
+                      <p className={style.twoHomeParTwo}>{item.author}</p>
+                      <h4 className={style.twoHomeFourHead}>
+                        {item.description}
+                      </h4>
+                      <h4 className={style.twoHomeFourHead}>
+                        {item.description2}
+                      </h4>
+                      <h4 className={style.twoHomeFourHead}>
+                        {item.description3}
+                      </h4>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </Container>
       </div>
