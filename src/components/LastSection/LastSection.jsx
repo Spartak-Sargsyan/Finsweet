@@ -1,11 +1,11 @@
-import Container from "../../Container/Container";
-import Button from "../../Button/Button";
-import style from "./homeSectionSeven.module.css";
+import Container from "../Container/Container";
+import Button from "../Button/Button";
+import style from "./lastSection.module.css";
 
-const HomeSectionSeven = () => {
+const LastSection = () => {
   return (
     <Container>
-      <div style={{ marginTop: "128px", marginBottom: '128px' }}>
+      <div style={{ marginTop: "128px", marginBottom: "128px" }}>
         <h2 className={style.sectionSevenHead}>
           Join our team to be a part <br />
           of our story
@@ -22,4 +22,4 @@ const HomeSectionSeven = () => {
   );
 };
 
-export default HomeSectionSeven;
+export default LastSection;

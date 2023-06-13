@@ -1,0 +1,41 @@
+.main{
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.contentPar{
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: var(--black);
+    padding-bottom: 20px;
+}
+
+.contentHead{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: var(--black);
+    padding-bottom: 16px;
+}
+.contentPar2{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--darkGray);
+    padding-bottom: 16px;
+}
+.contentPar2 span{
+    color: var(--purple);
+}
+
+.contentPar3{
+    font-family: 'Inter';
+    line-height: 28px;
+    color: var(--mediumGray);
+    padding-bottom: 30px;
+}

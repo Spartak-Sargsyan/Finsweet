@@ -1,102 +1,145 @@
 {
-    "homePost":[
-        {
-            "id":1,
-            "author":"By John Deo | Aug 23, 2021 ",
-            "description":"8 Figma design systems that ",
-            "description2":"you can download for free",
-            "description3":"today."
-        },
-        {
-            "id":2,
-            "author":"By John Deo | Aug 23, 2021 ",
-            "description":"8 Figma design systems that ",
-            "description2":"you can download for free",
-            "description3":"today."
-        },
-        {
-            "id":3,
-            "author":"By John Deo | Aug 23, 2021 ",
-            "description":"8 Figma design systems that ",
-            "description2":"you can download for free",
-            "description3":"today."
-        },
-        {
-            "id":4,
-            "author":"By John Deo | Aug 23, 2021 ",
-            "description":"8 Figma design systems that ",
-            "description2":"you can download for free",
-            "description3":"today."
-        }
-    ],
+  "homePost": [
+    {
+      "id": 1,
+      "author": "By John Deo | Aug 23, 2021 ",
+      "description": "8 Figma design systems that ",
+      "description2": "you can download for free",
+      "description3": "today."
+    },
+    {
+      "id": 2,
+      "author": "By John Deo | Aug 23, 2021 ",
+      "description": "8 Figma design systems that ",
+      "description2": "you can download for free",
+      "description3": "today."
+    },
+    {
+      "id": 3,
+      "author": "By John Deo | Aug 23, 2021 ",
+      "description": "8 Figma design systems that ",
+      "description2": "you can download for free",
+      "description3": "today."
+    },
+    {
+      "id": 4,
+      "author": "By John Deo | Aug 23, 2021 ",
+      "description": "8 Figma design systems that ",
+      "description2": "you can download for free",
+      "description3": "today."
+    }
+  ],
 
-    "cotegory":[
-        {
-            "id":1,
-            "logo":"https://i.ibb.co/KrGJY6r/Business.png",
-            "heading":"Business",
-            "description":"Lorem ipsum dolor sit amet,",
-            "description2":"consectetuer adipiscing elit."
-        },
-        {
-            "id":2,
-            "logo":"https://i.ibb.co/LkQFTRW/Startup.png",
-            "heading":"Startup",
-            "description":"Lorem ipsum dolor sit amet,",
-            "description2":"consectetuer adipiscing elit."
-        },
-        {
-            "id":3,
-            "logo":"https://i.ibb.co/0j5gJ8g/Economy.png",
-            "heading":"Economy",
-            "description":"Lorem ipsum dolor sit amet,",
-            "description2":"consectetuer adipiscing elit."
-        },
-        {
-            "id":4,
-            "logo":"https://i.ibb.co/GvMxzQc/Technology.png",
-            "heading":"Technology",
-            "description":"Lorem ipsum dolor sit amet,",
-            "description2":"consectetuer adipiscing elit."
-        }
-    ],
+  "cotegory": [
+    {
+      "id": 1,
+      "logo": "https://i.ibb.co/KrGJY6r/Business.png",
+      "heading": "Business",
+      "description": "Lorem ipsum dolor sit amet,",
+      "description2": "consectetuer adipiscing elit."
+    },
+    {
+      "id": 2,
+      "logo": "https://i.ibb.co/LkQFTRW/Startup.png",
+      "heading": "Startup",
+      "description": "Lorem ipsum dolor sit amet,",
+      "description2": "consectetuer adipiscing elit."
+    },
+    {
+      "id": 3,
+      "logo": "https://i.ibb.co/0j5gJ8g/Economy.png",
+      "heading": "Economy",
+      "description": "Lorem ipsum dolor sit amet,",
+      "description2": "consectetuer adipiscing elit."
+    },
+    {
+      "id": 4,
+      "logo": "https://i.ibb.co/GvMxzQc/Technology.png",
+      "heading": "Technology",
+      "description": "Lorem ipsum dolor sit amet,",
+      "description2": "consectetuer adipiscing elit."
+    }
+  ],
 
-    "homeAuthor":[
-        {
-            "img":"https://i.ibb.co/VHsSXF9/user1.png",
-            "name": "Floyd Miles",
-            "company":"Content Writer @Company",
-            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
-            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
-            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
-            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
-        },
-        {
-            "img":"https://i.ibb.co/XzchpHS/user2.png",
-            "name": "Dianne Russell",
-            "company":"Content Writer @Company",
-            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
-            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
-            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
-            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
-        },
-        {
-            "img":"https://i.ibb.co/zGvvMHy/user3.png",
-            "name": "Jenny Wilson",
-            "company":"Content Writer @Company",
-            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
-            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
-            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
-            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
-        },
-        {
-            "img":"https://i.ibb.co/8NmqqJw/user4.png",
-            "name": "Leslie Alexander",
-            "company":"Content Writer @Company",
-            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
-            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
-            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
-            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
-        }
-    ]
+  "homeAuthor": [
+    {
+      "img": "https://i.ibb.co/VHsSXF9/user1.png",
+      "name": "Floyd Miles",
+      "company": "Content Writer @Company",
+      "facebook": "https://i.ibb.co/DtnN5qh/facebook.png",
+      "twitter": "https://i.ibb.co/yngktpH/twitter.png",
+      "instagram": "https://i.ibb.co/jyx8VVy/instagram.png",
+      "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
+    },
+    {
+      "img": "https://i.ibb.co/XzchpHS/user2.png",
+      "name": "Dianne Russell",
+      "company": "Content Writer @Company",
+      "facebook": "https://i.ibb.co/DtnN5qh/facebook.png",
+      "twitter": "https://i.ibb.co/yngktpH/twitter.png",
+      "instagram": "https://i.ibb.co/jyx8VVy/instagram.png",
+      "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
+    },
+    {
+      "img": "https://i.ibb.co/zGvvMHy/user3.png",
+      "name": "Jenny Wilson",
+      "company": "Content Writer @Company",
+      "facebook": "https://i.ibb.co/DtnN5qh/facebook.png",
+      "twitter": "https://i.ibb.co/yngktpH/twitter.png",
+      "instagram": "https://i.ibb.co/jyx8VVy/instagram.png",
+      "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
+    },
+    {
+      "img": "https://i.ibb.co/8NmqqJw/user4.png",
+      "name": "Leslie Alexander",
+      "company": "Content Writer @Company",
+      "facebook": "https://i.ibb.co/DtnN5qh/facebook.png",
+      "twitter": "https://i.ibb.co/yngktpH/twitter.png",
+      "instagram": "https://i.ibb.co/jyx8VVy/instagram.png",
+      "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
+    }
+  ],
+
+  "blogPage":[
+    {
+        "img":"https://i.ibb.co/xSgK9yy/blog2.png",
+        "cotegory":"STARTUP",
+        "heading":"Design tips for designers that cover",
+        "heading2":"everything you need",
+        "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+        "img":"https://i.ibb.co/xqq2fRC/blog3.png",
+        "cotegory":"BUSINESS",
+        "heading":"How to build rapport with your web",
+        "heading2":"design clients",
+        "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+        "img":"https://i.ibb.co/mRSJ5q1/blog4.png",
+        "cotegory":"STARTUP",
+        "heading":"Logo design trends to avoid in 2022",
+        "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+        "img":"https://i.ibb.co/30kJ7PB/blog5.png",
+        "cotegory":"TECHNOLOGY",
+        "heading":"8 Figma design systems you can",
+        "heading2":"download for free today",
+        "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+        "img":"https://i.ibb.co/xSgK9yy/blog2.png",
+        "cotegory":"ECONOMY",
+        "heading":"Font sizes in UI design: The complete",
+        "heading2":"guide to follow",
+        "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    }
+  ]
+
 }

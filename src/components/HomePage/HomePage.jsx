@@ -7,7 +7,7 @@ import HomeSectionThree from "./HomeSectionThree/HomeSectionThree";
 import HomeSectionFour from "./HomeSectionFour/HomeSectionFour";
 import HomeSectionFive from "./HomeSectionFive/HomeSectionFive";
 import HomeSectionSix from "./HomeSectionSix/HomeSectionSix";
-import HomeSectionSeven from "./HomeSectionSeven/HomeSectionSeven";
+import LastSection from "../LastSection/LastSection";
 
 const HomePage = () => {
   return (
@@ -20,7 +20,7 @@ const HomePage = () => {
       <HomeSectionFour />
       <HomeSectionFive />
       <HomeSectionSix />
-      <HomeSectionSeven />
+      <LastSection />
       <Footer logo="{Finsweet" />
     </>
   );
