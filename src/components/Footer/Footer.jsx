@@ -8,6 +8,7 @@ import Button from "../Button/Button";
 import Container from "../Container/Container";
 import { useForm } from "react-hook-form";
 import { ErrorMessigInput } from "../../constants/formMessage";
+import Navigate from "./Navigate/Navigate";
 
 const Footer = ({ logo }) => {
   const {
@@ -24,13 +25,7 @@ const Footer = ({ logo }) => {
       <Container>
         <div className={style.contentFooter}>
           <p className={style.logoFooter}>{logo}</p>
-          <nav>
-            <Link className={style.hrefFoorer}>Home</Link>
-            <Link className={style.hrefFoorer}>Blog</Link>
-            <Link className={style.hrefFoorer}>About Us</Link>
-            <Link className={style.hrefFoorer}>Contact Us</Link>
-            <Link className={style.hrefFoorer}>Privacy Policy</Link>
-          </nav>
+          <Navigate />
         </div>
 
         <div className={style.contentFooter2}>
@@ -39,7 +34,7 @@ const Footer = ({ logo }) => {
           </h2>
 
           <form className={style.inputs}>
-            <div>{errors?.email && <p>{ErrorMessigInput.errorMail}</p>}</div>
+            <div className={style.error}>{errors?.email && <p>{ErrorMessigInput.errorMail}</p>}</div>
             <input
               {...register("email", {
                 pattern: {

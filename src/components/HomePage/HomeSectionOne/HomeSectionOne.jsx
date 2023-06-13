@@ -6,8 +6,11 @@ import { useEffect, useState } from "react";
 import { homePostGet } from "../../../services/database";
 const HomeSectionOne = () => {
   const [homePost, setHomePost] = useState([]);
+
   useEffect(() => {
-    homePostGet().then((res) => setHomePost(res));
+    homePostGet()
+      .then((res) => setHomePost(res))
+      .catch((errors) => alert(errors));
   }, []);
 
   return (

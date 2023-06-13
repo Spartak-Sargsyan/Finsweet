@@ -1,0 +1,92 @@
+.sectionSix{
+    margin-top: 128px;
+    background: var(--lightYellow);
+    padding: 90px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionSixLeftPar{
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: var(--black);
+    padding-bottom: 12px;
+}
+
+.sectionSixLeftHead{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: var(--black);
+}
+
+.sectionSixLeftDesc{
+    font-family: 'Inter';
+    font-weight: 400;
+    padding-top: 16px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+.sectionSixRight{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--mediumGray);
+    padding-left: 100px;
+}
+
+.sectionSixRightUser{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionSixRightUserDesc{
+    display: flex;
+    align-items: center;
+}
+
+.sectionSixRightUserDescName{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black);
+}
+
+.sectionSixRightUserDescCity{
+    font-family: 'Inter';
+    line-height: 28px;
+    color:var(--mediumGray);
+}
+
+.sectionSixRightDesc{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 24px;
+    color:var(--black);
+    line-height: 32px;
+}
+
+.arrow{
+    margin-top: 25px;
+}
+
+.arrowS{
+    background: var(--white);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.arrowS:last-child{
+    margin-left: 25px;
+}
+
+.arrowS:hover{
+    background: var(--black);
+}

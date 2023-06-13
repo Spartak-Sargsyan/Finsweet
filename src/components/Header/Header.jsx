@@ -1,20 +1,18 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import style from "./header.module.css";
+import Navigate from "./Navigate/Navigate";
 import Container from "../Container/Container";
+import { RouteCostant } from "../../constants/routeCostant";
 
 const Header = ({ logo }) => {
   return (
     <header>
       <Container>
         <div className={style.content}>
-          <Link className={style.logo}>{logo}</Link>
-          <nav className={style.navBar}>
-            <NavLink className={style.navigate}>Home</NavLink>
-            <NavLink className={style.navigate}>Blog</NavLink>
-            <NavLink className={style.navigate}>About Us</NavLink>
-            <NavLink className={style.navigate}>Contact Us</NavLink>
-            <NavLink className={style.navigateS}>Subscribe</NavLink>
-          </nav>
+          <Link to={RouteCostant.home} className={style.logo}>
+            {logo}
+          </Link>
+          <Navigate />
         </div>
       </Container>
     </header>

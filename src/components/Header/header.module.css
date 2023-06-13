@@ -1,9 +1,8 @@
 header{
     background: var(--black);
-}
-.container{
-    max-width: 1282px;
-    margin: auto;
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
 }
 .content{
     display: flex;
@@ -18,21 +17,4 @@ header{
     font-size: 30px;
     font-family: 'Sen';
     font-weight: 600;
-}
-.navigate{
-    color: var(--white);
-    font-family: 'Inter';
-    margin-right: 25px;
-    font-size: 16px;
-    text-decoration: none;
-}
-.navigateS{
-    border: none;
-    background: var(--white);
-    padding: 15px 45px;
-    text-decoration: none;
-    font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--black);
 }

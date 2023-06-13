@@ -2,12 +2,13 @@
     --yellow:#FFD050;
     --darkYellow:#EDC14A;
     --black:#232536;
-    --lightBlack:#292c3e;
+    --lightBlack:#2e3040;
     --purple:#592EA9;
     --darkGray:#4C4C4C;
     --mediumGray:#6D6E76;
-    --lightGrey:"#F4F4F4";
-    --lavender:"#F4F0F8";
-    --lightYellow:"#FBF6EA";
+    --lightGrey:#F4F4F4;
+    --lavender:#F4F0F8;
+    --lightYellow:#FBF6EA;
     --white:#fff;
+    --red:#ff0000;
 }

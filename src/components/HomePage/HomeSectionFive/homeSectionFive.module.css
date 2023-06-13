@@ -1,0 +1,24 @@
+.logoipsum{
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+.logoipsumImg{
+    display: flex;
+    gap: 90px;
+}
+.logoipsumPar{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--mediumGray);
+}
+
+.logoipsumParSpan{
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--mediumGray);
+}

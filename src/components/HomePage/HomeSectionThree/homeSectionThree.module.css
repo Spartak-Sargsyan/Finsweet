@@ -1,0 +1,37 @@
+.section3{
+    background: url(../../../assets//images/homePage/home3.png) no-repeat;
+    height: 100vh;
+    margin-top: 128px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.section3Mini{
+    background: var(--white);
+    padding: 80px;
+    width: 706px;
+}
+.section3MiniPar{
+    font-family: 'Inter';
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--black);
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+.section3MiniHead{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: var(--black);
+    padding-bottom: 16px;
+}
+.section3MiniPar2{
+    font-family: 'Inter';
+    line-height: 28px;
+    color: var(--mediumGray);
+    padding-bottom: 30px;
+}

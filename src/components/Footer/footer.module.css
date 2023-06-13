@@ -2,22 +2,11 @@ footer{
     background: var(--black);
     margin-top: 50px;
 }
-.container{
-    max-width: 1282px;
-    margin: auto;
-}
 .contentFooter{
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.hrefFoorer{
-    margin-left: 24px;
-    color: var(--white);
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Inter';
 }
 .logoFooter{
     font-size: 30px;
@@ -65,6 +54,14 @@ footer{
 .footerPar:first-of-type{
     padding-bottom: 5px;
 }
-.socialImg{
-    margin-left: 27px;
+.social{
+    display: flex;
+    gap: 27px;
 }
+  
+.error p {
+    color: var(--red);
+    font-family: 'Inter';
+    font-weight: 700;
+    padding-bottom: 15px;
+  }

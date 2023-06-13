@@ -1,0 +1,42 @@
+.chooseHeading{
+    font-family: 'Sen';
+    font-weight: 700;
+    color: var(--black);
+    font-size: 36px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.catagory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.miniCatagory{
+    border: 1px solid var(--mediumGray);
+    padding: 32px;
+}
+.miniCatagory:hover{
+    background-color: var(--yellow);
+}
+.img{
+    width: 48px;
+    height: 48px;
+    background: var(--lightYellow);
+    border-radius: 5px;
+}
+.miniHeading{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--black);
+    padding: 15px 0 5px;
+}
+
+.cotagoryDesc{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--mediumGray);
+}

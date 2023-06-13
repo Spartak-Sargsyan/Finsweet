@@ -30,64 +30,73 @@
         }
     ],
 
-    "homeCotegory":[
+    "cotegory":[
         {
-            "logo":"<img src='../assets/icon/cotegoryIcon/Business.svg' alt='logo' />",
+            "id":1,
+            "logo":"https://i.ibb.co/KrGJY6r/Business.png",
             "heading":"Business",
-            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+            "description":"Lorem ipsum dolor sit amet,",
+            "description2":"consectetuer adipiscing elit."
         },
         {
-            "logo":"<img src='../assets/icon/cotegoryIcon/Startup.svg' alt='logo' />",
+            "id":2,
+            "logo":"https://i.ibb.co/LkQFTRW/Startup.png",
             "heading":"Startup",
-            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+            "description":"Lorem ipsum dolor sit amet,",
+            "description2":"consectetuer adipiscing elit."
         },
         {
-            "logo":"<img src='../assets/icon/cotegoryIcon/Economy.svg' alt='logo' />",
+            "id":3,
+            "logo":"https://i.ibb.co/0j5gJ8g/Economy.png",
             "heading":"Economy",
-            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+            "description":"Lorem ipsum dolor sit amet,",
+            "description2":"consectetuer adipiscing elit."
         },
         {
-            "logo":"<img src='../assets/icon/cotegoryIcon/Technology.svg' alt='logo' />",
+            "id":4,
+            "logo":"https://i.ibb.co/GvMxzQc/Technology.png",
             "heading":"Technology",
-            "description":"Lorem ipsum dolor sit amet,<br /> consectetuer adipiscing elit."
+            "description":"Lorem ipsum dolor sit amet,",
+            "description2":"consectetuer adipiscing elit."
         }
     ],
+
     "homeAuthor":[
         {
-            "img":"<img src='../assets/images/repeatImages/user1.png' alt='logo' />",
+            "img":"https://i.ibb.co/VHsSXF9/user1.png",
             "name": "Floyd Miles",
             "company":"Content Writer @Company",
-            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
-            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
-            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
-            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
+            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
+            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
+            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
         },
         {
-            "img":"<img src='../assets/images/repeatImages/user2.png' alt='logo' />",
+            "img":"https://i.ibb.co/XzchpHS/user2.png",
             "name": "Dianne Russell",
             "company":"Content Writer @Company",
-            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
-            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
-            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
-            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
+            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
+            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
+            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
         },
         {
-            "img":"<img src='../assets/images/repeatImages/user3.png' alt='logo' />",
+            "img":"https://i.ibb.co/zGvvMHy/user3.png",
             "name": "Jenny Wilson",
             "company":"Content Writer @Company",
-            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
-            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
-            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
-            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
+            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
+            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
+            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
         },
         {
-            "img":"<img src='../assets/images/repeatImages/user4.png' alt='logo' />",
+            "img":"https://i.ibb.co/8NmqqJw/user4.png",
             "name": "Leslie Alexander",
             "company":"Content Writer @Company",
-            "facebook":"<img src='../assets/icon/socialIcon/facebook.svg' alt='logo' />",
-            "twitter":"<img src='../assets/icon/socialIcon/twitter.svg' alt='logo' />",
-            "instagram":"<img src='../assets/icon/socialIcon/instagram.svg' alt='logo' />",
-            "linkedIn":"<img src='../assets/icon/socialIcon/linkedIn.svg' alt='logo' />"
+            "facebook":"https://i.ibb.co/DtnN5qh/facebook.png",
+            "twitter":"https://i.ibb.co/yngktpH/twitter.png",
+            "instagram":"https://i.ibb.co/jyx8VVy/instagram.png",
+            "linkedIn":"https://i.ibb.co/NtVCRxb/linkdin.png"
         }
     ]
 }

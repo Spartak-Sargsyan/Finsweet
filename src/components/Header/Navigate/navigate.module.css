@@ -1,0 +1,18 @@
+.navigate{
+    color: var(--white);
+    font-family: 'Inter';
+    margin-right: 25px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navigate2{
+    background: var(--white);
+    font-family: 'Inter';
+    text-align: center;
+    padding: 15px 45px;
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--black);
+}

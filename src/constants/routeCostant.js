@@ -1,8 +1,9 @@
-const RouteCostant = {
+export const RouteCostant = {
     home:"/",
     blog:"/blog",
     blogPost:"blogpost",
     aboutUs:"/about",
     contactUs:"/contact",
+    subsribe:"/subsribe",
     privacyPolicy:"privacyPolicy"
 }

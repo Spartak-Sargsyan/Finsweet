@@ -1,0 +1,17 @@
+.sectionSevenHead{
+    text-align: center;
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: var(--black);
+    padding-bottom: 16px;
+}
+.sectionSevenPar{
+    font-family: 'Inter';
+    line-height: 28px;
+    text-align: center;
+    color: var(--mediumGray);
+    padding-bottom: 32px;
+}

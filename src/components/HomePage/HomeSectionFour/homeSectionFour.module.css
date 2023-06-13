@@ -1,0 +1,50 @@
+.authorHead{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    font-family: 'Sen';
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.miniAuthor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.authors{
+    text-align: center;
+    padding: 40px 54px;
+    background: var(--lightGrey);
+}
+.authors:hover{
+    background: var(--lightYellow);
+}
+
+.socialMedia{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.authorHead3{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: var(--black);
+    margin-top: 20px;
+    text-align: center;
+}
+.authorDesc{
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--mediumGray);
+}
