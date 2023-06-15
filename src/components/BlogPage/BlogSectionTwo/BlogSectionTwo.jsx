@@ -21,7 +21,7 @@ const BlogSectionTwo = () => {
         <div className={style.loopMain}>
           {blog.map((item) => {
             return (
-              <div className={style.miniMain}>
+              <div key={item.id} className={style.miniMain}>
                 <div>
                   <img src={item.img} alt="" />
                 </div>

@@ -41,44 +41,6 @@ const HomeSectionTwo = () => {
             </p>
           </div>
         </div>
-
-        {/* <div className={style.aboutPage}>
-          <div className={style.aboutPageDiv}>
-            <p className={style.aboutPageP}>ABOUT US</p>
-            <h1 className={style.aboutPageH1}>
-              We are a team of <br /> content writers who <br /> share their
-              learnings
-            </h1>
-          </div>
-          <p className={style.aboutPageP2}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            <br />
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            <br />
-            enim ad minim veniam, quis nostrud exercitation ullamco <br />
-            laboris nisi utaliquip ex ea commodo consequat.
-          </p>
-        </div>
-        <div className={style.aboutPage2}>
-          <div className={style.aboutPage2Content}>
-            <div className={style.aboutPage2Content2}>
-              <div className={style.aboutPage2MiniContent}>
-                <p className={style.aboutPage2ContentP1}>12+</p>
-                <p className={style.aboutPage2ContentP2}>Blogs Published</p>
-              </div>
-              <div className={style.aboutPage2MiniContent}>
-                <p className={style.aboutPage2ContentP1}>18K+</p>
-                <p className={style.aboutPage2ContentP2}>Views on Finsweet</p>
-              </div>
-              <div className={style.aboutPage2MiniContent}>
-                <p className={style.aboutPage2ContentP1}>30K+</p>
-                <p className={style.aboutPage2ContentP2}>Total active Users</p>
-              </div>
-            </div>
-          </div>
-          <div className={style.purple}></div>
-          <div className={style.yellow}></div>
-        </div> */}
       </Container>
     </div>
   );

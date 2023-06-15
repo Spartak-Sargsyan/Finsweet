@@ -63,6 +63,7 @@
 
   "homeAuthor": [
     {
+      "id":1,
       "img": "https://i.ibb.co/VHsSXF9/user1.png",
       "name": "Floyd Miles",
       "company": "Content Writer @Company",
@@ -72,6 +73,7 @@
       "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
     },
     {
+      "id":2,
       "img": "https://i.ibb.co/XzchpHS/user2.png",
       "name": "Dianne Russell",
       "company": "Content Writer @Company",
@@ -81,6 +83,7 @@
       "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
     },
     {
+      "id":3,
       "img": "https://i.ibb.co/zGvvMHy/user3.png",
       "name": "Jenny Wilson",
       "company": "Content Writer @Company",
@@ -90,6 +93,7 @@
       "linkedIn": "https://i.ibb.co/NtVCRxb/linkdin.png"
     },
     {
+      "id":4,
       "img": "https://i.ibb.co/8NmqqJw/user4.png",
       "name": "Leslie Alexander",
       "company": "Content Writer @Company",
@@ -102,6 +106,7 @@
 
   "blogPage":[
     {
+        "id":1,
         "img":"https://i.ibb.co/xSgK9yy/blog2.png",
         "cotegory":"STARTUP",
         "heading":"Design tips for designers that cover",
@@ -110,6 +115,7 @@
         "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     {
+        "id":2,
         "img":"https://i.ibb.co/xqq2fRC/blog3.png",
         "cotegory":"BUSINESS",
         "heading":"How to build rapport with your web",
@@ -118,6 +124,7 @@
         "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     {
+        "id":3,
         "img":"https://i.ibb.co/mRSJ5q1/blog4.png",
         "cotegory":"STARTUP",
         "heading":"Logo design trends to avoid in 2022",
@@ -125,6 +132,7 @@
         "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     {
+        "id":4,
         "img":"https://i.ibb.co/30kJ7PB/blog5.png",
         "cotegory":"TECHNOLOGY",
         "heading":"8 Figma design systems you can",
@@ -133,12 +141,49 @@
         "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     {
+        "id":5,
         "img":"https://i.ibb.co/xSgK9yy/blog2.png",
         "cotegory":"ECONOMY",
         "heading":"Font sizes in UI design: The complete",
         "heading2":"guide to follow",
         "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
         "description2":"nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    }
+  ],
+
+  "blogPost":[
+    {
+      "id":1,
+      "img":"https://i.ibb.co/xSgK9yy/blog2.png",
+      "miniDesc":"By John Doe | Aug 23, 2021 ",
+      "heading":"A UX Case Study Creating a",
+      "heading2":"Studious Environment for",
+      "heading3":"Students:",
+      "description":"Duis aute irure dolor in reprehenderit in",
+      "description2":"voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description3":"Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id":2,
+      "img":"https://i.ibb.co/xqq2fRC/blog3.png",
+      "miniDesc":"By John Doe | Aug 23, 2021 ",
+      "heading":"A UX Case Study Creating a",
+      "heading2":"Studious Environment for",
+      "heading3":"Students:",
+      "description":"Duis aute irure dolor in reprehenderit in",
+      "description2":"voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description3":"Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id":3,
+      "img":"https://i.ibb.co/mRSJ5q1/blog4.png",
+      "miniDesc":"By John Doe | Aug 23, 2021 ",
+      "heading":"A UX Case Study Creating a",
+      "heading2":"Studious Environment for",
+      "heading3":"Students:",
+      "description":"Duis aute irure dolor in reprehenderit in",
+      "description2":"voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description3":"Excepteur sint occaecat cupidatat non proident."
     }
   ]
 

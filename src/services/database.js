@@ -4,6 +4,8 @@ const homePost = "http://localhost:3005/homePost";
 const cotagory = "http://localhost:3005/cotegory";
 const homeAuthor = 'http://localhost:3005/homeAuthor';
 const blogCotegory = 'http://localhost:3005/blogPage';
+const blogPostCotegory = 'http://localhost:3005/blogPost';
+
 
 export const homePostGet = ()=>{
     return axios.get(homePost)
@@ -25,6 +27,12 @@ export const homeAuthorGet = ()=>{
 
 export const blogPageGet = ()=>{
     return axios.get(blogCotegory)
+    .then(res => res.data)
+    .catch(errors => console.error(errors))
+}
+
+export const blogPagePostGet = ()=> {
+    return axios.get(blogPostCotegory)
     .then(res => res.data)
     .catch(errors => console.error(errors))
 }

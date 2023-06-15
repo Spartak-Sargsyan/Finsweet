@@ -1,0 +1,39 @@
+.mainPar{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #000000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniMainContent p:first-of-type{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--darkGray);
+    padding-bottom: 16px;
+    padding-top: 36px;
+}
+
+.miniMainContent h3{
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: var(--black);
+}
+.miniMainContent p{
+    font-family: 'Inter';
+    line-height: 28px;
+    color: var(--black);
+}
